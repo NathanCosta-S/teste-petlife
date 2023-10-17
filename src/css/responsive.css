@@ -1,0 +1,190 @@
+@media screen and (max-width: 975px) {
+
+
+    .header {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .btns {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .clinica {
+        display: block;
+
+        flex-wrap: wrap;
+    }
+
+    .duvidas {
+        display: block;
+        flex-direction: column;
+    }
+
+    .farmacia {
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .inicio {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .inicio h1 {
+        font-size: 20px;
+    }
+
+    .inicio p {
+        font-size: 14px;
+    }
+
+    .btns {
+        margin: 10px 0;
+    }
+
+    .btn,
+    .btn-transparente {
+        margin: 5px;
+    }
+
+    .clinica,
+    .farmacia,
+    .duvidas {
+        padding: 20px auto;
+        text-align: center;
+    }
+
+    .clinica h2,
+    .farmacia h2,
+    .duvidas h2 {
+        font-size: 20px;
+    }
+
+    .clinica p,
+    .farmacia p {
+        font-size: 14px;
+    }
+
+    .duvida h3 {
+        font-size: 18px;
+    }
+
+    .duvida p {
+        font-size: 14px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .titulo-rodape {
+        margin-top: 20px;
+      }
+    
+      .link-rodape {
+        margin-top: 20px;
+      }
+    
+      .link-rodape p {
+        margin: 5px 0;
+      }
+    }
+
+/* Estilos para dispositivos com largura de tela de 375px */
+@media screen and (max-width: 575px) {
+    /* Estilos gerais para o corpo e cabeçalho */
+    body {
+      font-size: 14px; /* Reduza o tamanho da fonte geral */
+    }
+   
+    img{
+        width: 210px ;
+        height: 110px;
+    }
+    .header {
+      padding: 10px;
+    }
+  
+    .menu li {
+      margin: 5px;
+    }
+  
+    /* Estilos para a seção de início */
+    .inicio {
+      padding: 20px;
+    }
+  
+    .inicio h1 {
+      font-size: 18px;
+    }
+  
+    .inicio p {
+      font-size: 14px;
+    }
+  
+    .btns {
+      margin: 10px 0;
+    }
+  
+    .btn, .btn-transparente {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    /* Estilos para outras seções (clinica, farmacia, duvidas) */
+    .clinica, .farmacia, .duvidas {
+      padding: 20px;
+    }
+  
+    .clinica h2, .farmacia h2, .duvidas h2 {
+      font-size: 20px;
+    }
+  
+    .clinica p, .farmacia p {
+      font-size: 14px;
+    }
+  
+    .duvida h3 {
+      font-size: 18px;
+    }
+  
+    .duvida p {
+      font-size: 14px;
+    }
+  
+    /* Estilos para o rodapé */
+    footer {
+      padding: 10px;
+    }
+  
+    .titulo-rodape {
+      font-size: 16px;
+    }
+  
+    .link-rodape {
+      margin-top: 10px;
+    }
+  
+    .link-rodape p {
+      font-size: 14px;
+    }
+  }
+
